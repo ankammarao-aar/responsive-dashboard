@@ -1,0 +1,11 @@
+.home-container {
+    height: 100vh;
+    background-color: lightsteelblue;
+    display: flex;
+}
+
+.main-area {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}

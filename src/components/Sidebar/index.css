@@ -1,0 +1,46 @@
+.sidebar-container {
+    width: 15vw;
+    height: 100vh;
+    background-color: white;
+    border-bottom-right-radius: 16px;
+}
+
+.sidebar-heading {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(70, 70, 182);
+    text-align: center;
+}
+
+.free {
+    font-weight: normal;
+}
+
+.dashboard-container {
+    margin: 10%;
+}
+
+.dashboard-card {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon {
+   font-size: 14px;
+   color: rgb(133, 182, 212);
+   margin-right: 10px;
+}
+
+.dashboard {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(133, 182, 212);
+}
+
+
+
+
+

@@ -1,0 +1,48 @@
+.header-container {
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.header-heading {
+    font-family: 'Roboto';
+    color: rgb(70, 70, 182);
+
+}
+
+.header-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 8px;
+    border-radius: 26px;
+}
+
+.header-search-card {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.header-icons {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.search {
+    font-family: 'Roboto';
+    padding-left: 8px;
+    margin-right: 8px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+

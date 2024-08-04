@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import {Route, Switch} from 'react-router-dom'
+import Home from './components/Home'
+import Marketplace from './components/Marketplace'
+import Tables from './components/Tables'
+import Konban from './components/Konban'
+import Profile from './components/Profile'
+import Signin from './components/Signin'
+
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/marketplace" component={Marketplace} />
+    <Route exact path="/tables" component={Tables} />
+    <Route exact path="/konban" component={Konban} />
+    <Route exact path="/profile" component={Profile} />
+    <Route exact path="/signin" component={Signin} />
+  </Switch>
+)
 
 export default App;
